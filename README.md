@@ -1,15 +1,26 @@
-1. Your project should contain the following components:
+ 
+ <img width="1229" alt="Screenshot 2022-06-30 at 15 13 22" src="https://user-images.githubusercontent.com/95942547/176686128-bdc1dda3-6498-4a89-acd6-62b9f20e68f9.png">
+
+ 
+ 
+ This project contains the following components:
+ 
    -Header
+   
    -Blog( or BlogList)
+   
    -BlogPost
+   
    -Forecast
-2. In the "Latest News" part you need to show three blog posts, which should contain (image(take
+   
+ In the "Latest News" part we show three blog posts, which contain (image(we take
    them randomly from https://picsum.photos/ ), title, and description).
 
-3. - For the "Forecast" part , you needfetch data from the following URL:
-     http://api.openweathermap.org/data/2.5/forecast/daily?q=Skopje&units=metric&cnt=7&appid=886705b4c1182eb1c69f28eb8c520e20 and fill in the table with necessary data.
+ For the "Forecast" part ,we fetch data from the following URL:
+     http://api.openweathermap.org/data/2.5/forecast/daily?q=Skopje&units=metric&cnt=7&appid=886705b4c1182eb1c69f28eb8c520e20 and we fill in the table with necessary data.
 
-   - in order to show the correct icon in the table ( sun, cloud etc. ) use <img src= "http://openweathermap.org/img/w/APIICON.png}.png"> where instead of APIICON you should use the icon name from the API dynamically. http://openweathermap.org/img/w/10d.png
+  To show the correct icon in the table ( sun, cloud etc. ) we  use <img src= "http://openweathermap.org/img/w/APIICON.png}.png"> where instead of APIICON we use the icon name from the API dynamically. -openweathermap.org/img/w/10d.png-
 
-4. For the "Related News" part you should make the same thing as the first part (Latest News).
-5. At last when you click on hamburger menu ,the menu should open/close(check the css for this one i have some tips there for you :P ).
+For the "Related News" part we make the same thing as The latest news
+
+Also added a hamburger menu that opens and closes the mobile menu list
